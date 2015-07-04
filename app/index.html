@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Angular Users project">
+<meta name="author" content="Ian and Steve">
+<link type="text/css" rel="stylesheet" href="styles/bootstrap.css"/>
+<title>Angular Users project</title>
+</head>
+<body>
+
+<div class='container'>
+  <div class="jumbotron">
+    <h1>Users Main Page</h1>
+    <p>Some significant text or something else</p>
+  </div>
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="alert alert-info">
+        <span class="glyphicon glyphicon-exclamation-sign"></span>
+        <strong>Note:</strong>something goes here
+      </div>
+    </div>
+  </div>
+  <div class='row'>
+
+    <!-- begin right column NOTE: the right is first in the HTML for responsive. Bootstrap will pull it to the right at high res. -->
+    <div class='col-lg-9 col-md-9 col-sm-12 col-xs-12 side pull-right' id='console-col'>
+      <div> Right hand side
+      </div>
+    </div>
+    <!-- end right column -->
+    <!-- begin left column -->
+    <div class='col-lg-3 col-md-3 col-sm-12 col-xs-12 main pull-left'>
+      <!-- alerts -->
+    <!--
+      <!<div class='alert alert-danger'><span class='glyphicon glyphicon-exclamation-sign'></span> <strong>Service Notification:</strong><br/>
+        We are planning to introduce a change to the /Users API<br/>
+        <a href=''>more information &raquo;</a>
+      </div>
+    -->
+      <div class='alert alert-info'><span class='glyphicon glyphicon-ok-sign'></span>
+        <strong>Notices:</strong><br/>
+        <ul>
+        <li>some information
+            <a href='https://support.bandwidth.com/hc/en-us/articles/204150608-Bandwidth-Dashboard-API-Guide'>here</a> </li>
+        </ul>
+      </div>
+      <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading "><span class='glyphicon glyphicon-info-sign'></span> Information
+        </div>
+        <!-- List group -->
+        <div class="list-group">
+          <a href='navsidebar/principles.htm' class="list-group-item">Background and principles</a>
+        </div>
+      </div>
+      <!-- community panel -->
+      <div class="panel panel-default">
+        <div class="panel-heading "><span class='glyphicon glyphicon-comment'></span> Community</div>
+        <div class="list-group"> <a href='' class="list-group-item">Forums (coming soon)</a>
+        <a href='mailto:smckinnon@bandwidth.com?subject=API%20Comment' class="list-group-item">Submit technical comments via email</a> </div>
+      </div>
+    </div>
+    <!-- end left column -->
+  </div>
+</div>
+<!-- Bootstrap core JavaScript
+        ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="vendor/bootstrap.min.js"></script>
+</body>
+</html>
